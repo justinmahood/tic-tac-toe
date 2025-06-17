@@ -1,8 +1,8 @@
 
 body {
-  background-color: #1a1a2e;
-  color: #e0e0e0;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #6B4F37; /* A wood-like color for the background */
+  color: #EAE0D5; /* A parchment-like color for text */
+  font-family: 'Luminari', 'fantasy'; /* A more medieval-style font */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +13,8 @@ body {
 
 h1 {
   font-size: 3rem;
-  color: #ff00ff;
-  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+  color: #C6A664; /* A gold-like color for the title */
+  text-shadow: 2px 2px 4px #000000; /* A simple shadow to make the text pop */
 }
 
 .board {
@@ -22,14 +22,15 @@ h1 {
   grid-template-columns: repeat(3, 100px);
   grid-gap: 5px;
   margin-top: 20px;
+  border: 5px solid #3E2723; /* A dark wood color for the border */
+  background-color: #A1887F; /* A lighter wood color for the board background */
 }
 
 .cell {
   width: 100px;
   height: 100px;
-  background-color: #2a2a4e;
-  border: 2px solid #00ffff;
-  box-shadow: 0 0 10px #00ffff;
+  background-color: #D7CCC8; /* A stone-like color for the cells */
+  border: 2px solid #3E2723; /* A dark wood color for the cell borders */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,5 +41,5 @@ h1 {
 #status {
   margin-top: 20px;
   font-size: 1.5rem;
-  color: #00ffff;
+  color: #C6A664; /* A gold-like color for the status text */
 }
